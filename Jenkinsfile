@@ -1,7 +1,7 @@
 node {
     checkout scm
         stage('Build Maven') {
-               mvn clean install
+               mvn  install -DskipTests  -X 
                     sh 'mvn -version'
                 }
 }
