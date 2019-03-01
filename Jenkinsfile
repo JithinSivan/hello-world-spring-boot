@@ -4,3 +4,4 @@ node {
                mvn clean install
                     sh 'mvn -version'
                 }
+}
